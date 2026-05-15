@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Sort-Object)",
+      "mcp__tavily-search__tavily_search"
+    ]
+  }
+}
