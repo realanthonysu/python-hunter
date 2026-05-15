@@ -95,7 +95,21 @@ Both skills share a common, opinionated toolchain:
 
 ## Installation
 
-### Skill CLI (Recommended)
+### AI Agent Install (Recommended)
+
+Paste this to your AI agent (Claude Code, Trae, Cursor, etc.):
+
+```
+Install the python-hunter skills for me:
+
+1. Clone https://github.com/realanthonysu/python-hunter into a temp directory.
+2. Copy skills/vibe-coding-coach and skills/vibe-coding-scaffold into
+   your user-level skills directory (e.g. ~/.claude/skills/ for Claude Code).
+3. Verify that SKILL.md and references/ are present in each skill folder.
+4. Confirm the install paths when done.
+```
+
+### Skill CLI
 
 ```bash
 # Install coach (Python engineering discipline)
@@ -105,7 +119,7 @@ npx skills add realanthonysu/vibe-coding-coach
 npx skills add realanthonysu/vibe-coding-scaffold
 ```
 
-### Claude Code
+### Claude Code (Manual)
 
 **Project-level** (follows the project):
 

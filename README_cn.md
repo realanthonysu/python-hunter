@@ -85,7 +85,21 @@
 
 ## 安装
 
-### Skill CLI（推荐）
+### AI Agent 安装（推荐）
+
+把这段话粘贴给你的 AI Agent（Claude Code、Trae、Cursor 等）：
+
+```
+帮我安装 python-hunter 技能：
+
+1. 把 https://github.com/realanthonysu/python-hunter 克隆到临时目录。
+2. 把 skills/vibe-coding-coach 和 skills/vibe-coding-scaffold 复制到
+   用户级技能目录（如 Claude Code 的 ~/.claude/skills/）。
+3. 确认每个技能文件夹中 SKILL.md 和 references/ 都存在。
+4. 完成后告诉我安装路径。
+```
+
+### Skill CLI
 
 ```bash
 # 安装 coach（Python 工程纪律）
@@ -95,7 +109,7 @@ npx skills add realanthonysu/vibe-coding-coach
 npx skills add realanthonysu/vibe-coding-scaffold
 ```
 
-### Claude Code
+### Claude Code（手动）
 
 **项目级**（跟随项目）：
 

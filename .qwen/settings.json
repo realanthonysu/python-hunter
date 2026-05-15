@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git log *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Read(C:\\Users\\asu\\.qwen/**)"
     ]
   },
   "$version": 4
